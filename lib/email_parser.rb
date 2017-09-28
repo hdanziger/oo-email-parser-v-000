@@ -11,7 +11,7 @@ class EmailParser(emails)
 
   def parse
     email.split.collect do |email|
-      email.split( , )
+      email.split(,)
     end.flatten. unq
   end
 end
